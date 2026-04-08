@@ -7,7 +7,7 @@ public class Fish extends Pet {
     public Fish(String name, String dateDOB, boolean migratory, WaterType water) throws Exception {
         super(name, dateDOB);
         setMigratory(migratory);
-        setWater(water);
+        setWater(water );
     }
 
     public boolean isMigratory() {
