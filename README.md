@@ -168,4 +168,8 @@ This class ensures:
 ### Load Inventory
 ![Load](assets/load.png)
 
+assets/add_pet.png
+add_pet.png 
+
+
 nventory data, as well as displaying the pet inventory list.
