@@ -147,7 +147,7 @@ This class ensures:
 ![Add Pet 2](assets/add_pet2.png)
 
 ### Delete Pet
-![image alt]
+![image alt](https://github.com/AsherScavella/PetStoreApp/blob/91531af74512117f1f962ecac8da6be78007e5b1/DeletePetID.png)
 
 ### Add Fish
 ![image alt](https://github.com/AsherScavella/PetStoreApp/blob/ee54f5a21c172b578bd7e943fed8b2069c4bb0d9/Fish.png)
