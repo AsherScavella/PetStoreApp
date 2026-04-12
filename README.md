@@ -148,28 +148,24 @@ This class ensures:
 ![Add Pet 2](assets/add_pet2.png)
 
 ### Delete Pet
-![Delete Pet](assets/delete_pet.png)
+![image alt]
 
 ### Add Fish
-![Fish](assets/fish.png)
+![image alt]
+
 
 ### Invalid Date Handling
-![Invalid Date](assets/invalid_date.png)
+![image alt]
 
 ### Add Bird
-![Bird](assets/bird.png)
+![image alt]
 
 ### Save Inventory
-![Save](assets/save.png)
+![image alt]
 
 ### Load Inventory
-![Load](assets/load.png)
-![Load](assets/load.png)
-### Load Inventory
-![Load](assets/load.png)
-
-assets/add_pet.png
-add_pet.png 
+![image alt]
 
 
-nventory data, as well as displaying the pet inventory list.
+
+
