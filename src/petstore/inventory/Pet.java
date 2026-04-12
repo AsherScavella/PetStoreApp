@@ -25,6 +25,13 @@ public class Pet {
         setDateDOB(dateDOB);
     }
 
+    public static void setLastId(int lastId) {
+        Pet.lastId = lastId;
+    }
+
+    public int getId() {
+        return id;
+    }
 
     public String getName() {
         return name;

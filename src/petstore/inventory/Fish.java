@@ -10,6 +10,13 @@ public class Fish extends Pet {
         setWater(water );
     }
 
+    public Fish(int id, String name, String dateDOB, boolean migratory, WaterType water) throws Exception {
+        super(id, name, dateDOB);
+        setMigratory(migratory);
+        setWater(water );
+    }
+
+
     public boolean isMigratory() {
         return migratory;
     }
@@ -24,5 +31,11 @@ public class Fish extends Pet {
 
     public void setWater(WaterType water) {
         this.water = water;
+    }
+
+    @Override
+    public void displayPet(){
+        super.displayPet();
+        System.out.printf(" %-5s %-5s\n", migratory, water);
     }
 }
