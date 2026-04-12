@@ -163,7 +163,7 @@ This class ensures:
 ![image alt](https://github.com/AsherScavella/PetStoreApp/blob/381c37147eb9ad84207e7e8f59eb9d0e8b06fbf4/savingdata.png)
 
 ### Load Inventory
-![image alt]
+![image alt](https://github.com/AsherScavella/PetStoreApp/blob/26ec8c7056cfe7aa977c8b90c8aaad0b94a45cdd/LoadInv.png)
 
 
 
