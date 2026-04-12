@@ -136,15 +136,22 @@ This class ensures:
 ## **🧪 Example Run/Testing**
 
 ## Results
+## 🖼️ Program Output
 
-### Add Pet (Basic)
-![Add Pet](assets/add_pet1.png)
+### Add Pet
+![Add Pet](assets/add_pet.png)
 
-### Add Pet with Invalid Date
-![Invalid Date](assets/invalid_date.png)
+### Add Pet Example 2
+![Add Pet 2](assets/add_pet2.png)
 
-### Add Fish (Validation Example)
+### Delete Pet
+![Delete Pet](assets/delete_pet.png)
+
+### Add Fish
 ![Fish](assets/fish.png)
+
+### Invalid Date Handling
+![Invalid Date](assets/invalid_date.png)
 
 ### Add Bird
 ![Bird](assets/bird.png)
@@ -155,6 +162,4 @@ This class ensures:
 ### Load Inventory
 ![Load](assets/load.png)
 
----
-
-This screenshot shows the program output after adding different types of pets and testing validation errors. It also demonstrates saving and loading inventory data, as well as displaying the pet inventory list.
+nventory data, as well as displaying the pet inventory list.
