@@ -139,7 +139,6 @@ This class ensures:
 
 ## 🖼️ Program Output
 
-## 🖼️ Program Output
 
 ### Add Pet
 ![image alt](https://github.com/AsherScavella/PetStoreApp/blob/a1b46278f89f98c4dcd406c044abeac6ae3fa393/Addpet2.png)
@@ -151,7 +150,7 @@ This class ensures:
 ![image alt]
 
 ### Add Fish
-![image alt]
+![image alt](https://github.com/AsherScavella/PetStoreApp/blob/ee54f5a21c172b578bd7e943fed8b2069c4bb0d9/Fish.png)
 
 
 ### Invalid Date Handling
