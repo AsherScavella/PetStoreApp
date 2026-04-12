@@ -139,6 +139,8 @@ This class ensures:
 
 ## 🖼️ Program Output
 
+## 🖼️ Program Output
+
 ### Add Pet
 ![Add Pet](assets/add_pet.png)
 
@@ -161,6 +163,7 @@ This class ensures:
 ![Save](assets/save.png)
 
 ### Load Inventory
+![Load](assets/load.png)
 ![Load](assets/load.png)
 ### Load Inventory
 ![Load](assets/load.png)
