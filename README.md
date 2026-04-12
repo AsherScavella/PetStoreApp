@@ -142,7 +142,7 @@ This class ensures:
 ## 🖼️ Program Output
 
 ### Add Pet
-![image alt(]https://github.com/AsherScavella/PetStoreApp/blob/a1b46278f89f98c4dcd406c044abeac6ae3fa393/Addpet2.png)
+![image alt](https://github.com/AsherScavella/PetStoreApp/blob/a1b46278f89f98c4dcd406c044abeac6ae3fa393/Addpet2.png)
 
 ### Add Pet Example 2
 ![Add Pet 2](assets/add_pet2.png)
