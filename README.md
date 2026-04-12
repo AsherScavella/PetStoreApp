@@ -136,6 +136,7 @@ This class ensures:
 ## **🧪 Example Run/Testing**
 
 ## Results
+
 ## 🖼️ Program Output
 
 ### Add Pet
@@ -159,6 +160,8 @@ This class ensures:
 ### Save Inventory
 ![Save](assets/save.png)
 
+### Load Inventory
+![Load](assets/load.png)
 ### Load Inventory
 ![Load](assets/load.png)
 
