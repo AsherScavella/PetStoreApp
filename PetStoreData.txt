@@ -1,0 +1,4 @@
+PET|1|chico|1-1-2024|
+BIRD|2|Max|4-1-2026||false|DOME
+FISH|3|Bob|4-1-2026|fish|false|SALT
+PET|4|Max|1-1-2024|
