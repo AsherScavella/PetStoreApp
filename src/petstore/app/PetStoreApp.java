@@ -14,11 +14,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *  @author PUT_YOUR_NAMES_HERE
- *  @since PUT_THE_CURRENT_DATE_HERE
- *  @version 1.0 beta
- *  @see <a href="{PUT_YOUR_URL_HERE}">GitHub Repository</a>
+ * PetStoreApp is a console-based program used to manage a pet store inventory.
+ * This application allows the user to add, delete, display, save, and load pets.
+ * It supports multiple pet types including basic pets, birds, and fish.
  *
+ * The program uses object-oriented programming concepts such as inheritance,
+ * polymorphism, and encapsulation. It also uses file handling to save and
+ * retrieve pet inventory data from a text file.
+ *
+ * @author Asher Scavella
+ * @since 2026-04-13
+ * @version 1.0
+ * @see <a href="https://github.com/AsherScavella/PetStoreApp">GitHub Repository</a>
  */
 public class PetStoreApp {
 
@@ -32,16 +39,28 @@ public class PetStoreApp {
 
     private final List<Pet> inventory;
 
+    /**
+     * Constructs a new PetStoreApp object and initializes
+     * the inventory list.
+     */
     public PetStoreApp() {
         this.inventory = new ArrayList<>();
     }
 
+    /**
+     * Displays the heading for the application when the program starts.
+     */
     private void displayAppHeading() {
         System.out.println(DOUBLE_DASH_LINE);
         System.out.println("Welcome to the Pet Store App");
         System.out.println(DOUBLE_DASH_LINE);
     }
 
+    /**
+     * Deletes a pet from the inventory by asking the user
+     * to enter a pet ID. If the pet is found, it is removed.
+     * If the pet is not found, an error message is displayed.
+     */
     private void deletePet() {
         System.out.println("Delete Pet");
         System.out.println(SINGLE_DASH_LINE);
@@ -63,6 +82,15 @@ public class PetStoreApp {
         Input.getLine("Press enter to continue...");
     }
 
+    /**
+     * Creates a Bird object using user-provided information.
+     *
+     * @param name the name of the bird
+     * @param dateDOB the date of birth of the bird
+     * @param description the description of the bird
+     * @return a new Bird object
+     * @throws Exception if an invalid nest type is entered
+     */
     private Bird addBird(String name, String dateDOB, String description) throws Exception {
         Bird bird;
         int userInput;
@@ -85,6 +113,15 @@ public class PetStoreApp {
         return bird;
     }
 
+    /**
+     * Creates a Fish object using user-provided information.
+     *
+     * @param name the name of the fish
+     * @param dateDOB the date of birth of the fish
+     * @param description the description of the fish
+     * @return a new Fish object
+     * @throws Exception if an invalid water type is entered
+     */
     private Fish addFish(String name, String dateDOB, String description) throws Exception {
         Fish fish;
         int userInput;
@@ -107,12 +144,27 @@ public class PetStoreApp {
         return fish;
     }
 
+    /**
+     * Creates a basic Pet object using the provided values.
+     *
+     * @param name the name of the pet
+     * @param dateDOB the date of birth of the pet
+     * @param description the description of the pet
+     * @return a new Pet object
+     * @throws Exception if the Pet constructor throws an exception
+     */
     private Pet addBasicPet(String name, String dateDOB, String description) throws Exception {
         Pet pet = new Pet(name, dateDOB);
         pet.setDescription(description);
         return pet;
     }
 
+    /**
+     * Prompts the user for pet information and adds the pet
+     * to the inventory based on the selected pet type.
+     *
+     * @throws Exception if an invalid pet type is entered
+     */
     private void addPet() throws Exception {
         System.out.println("Add Pet");
         System.out.println(SINGLE_DASH_LINE);
@@ -148,6 +200,9 @@ public class PetStoreApp {
         }
     }
 
+    /**
+     * Displays all pets currently stored in the inventory.
+     */
     private void displayInventory() {
         System.out.println("Pet Inventory");
         System.out.println(SINGLE_DASH_LINE);
@@ -162,6 +217,10 @@ public class PetStoreApp {
         Input.getLine("Press enter to continue...");
     }
 
+    /**
+     * Saves all pets in the inventory to a text file.
+     * Each pet is stored in a formatted line based on its type.
+     */
     public void saveInventory() {
         System.out.println("Saving data! Please wait...");
 
@@ -198,6 +257,10 @@ public class PetStoreApp {
         Input.getLine("Press enter to continue...");
     }
 
+    /**
+     * Loads pet records from the inventory text file and rebuilds
+     * the inventory list with Pet, Bird, and Fish objects.
+     */
     public void loadInventory() {
         System.out.println("Loading data! Please wait...");
 
@@ -259,10 +322,23 @@ public class PetStoreApp {
         Input.getLine("Press enter to continue...");
     }
 
+    /**
+     * Returns a safe description value.
+     * If the description is null, an empty string is returned.
+     *
+     * @param description the original description
+     * @return the original description or an empty string if null
+     */
     private String safeDescription(String description) {
         return description == null ? "" : description;
     }
 
+    /**
+     * Displays the main menu and processes user choices
+     * until the user decides to end the program.
+     *
+     * @throws Exception if an invalid menu choice occurs
+     */
     private void mainMenu() throws Exception {
         boolean keepRunning = true;
 
@@ -317,6 +393,12 @@ public class PetStoreApp {
         }
     }
 
+    /**
+     * Starts the PetStoreApp program.
+     * This is the main entry point of the application.
+     *
+     * @param args command-line arguments
+     */
     public static void main(String[] args) {
         PetStoreApp app = new PetStoreApp();
 
